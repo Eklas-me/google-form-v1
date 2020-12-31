@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+	font-size: 62.5%;
+}
+body{
+    font-family: roboto,'Noto Sans Myanmar UI',arial,sans-serif;
+    
+}
+
+.fixed-width{
+    max-width: 120rem;
+    margin: auto;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+.codefix::after{
+    content:"";
+    display: block;
+    clear: both;
+    
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+
+/* Now google form design */
+.box{
+    height: 56.4rem;
+    width: 50rem;
+    margin: auto;
+    margin-top: 8.5rem;
+    border-radius: 1rem;
+    border: 1px solid #ddd;
+}
+
+.logo img{
+    width: 10rem;
+    height: auto;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+}
+.content{
+    margin-bottom: 4rem;
+}
+.content h2{
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 1.3333;
+}
+.content p{
+    color: #202124;
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: .1px;
+    line-height: 1.5;
+    padding: 1rem;
+    margin-bottom: .5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form{
+
+}
+.form input{
+    width: 30rem;
+    padding: 2rem 10rem 2rem 2rem;
+    font-size: 1.8rem;
+    margin: auto;
+    display: block;
+    outline: none;
+    margin-bottom: 1rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: .5rem;
+}
+.text{
+    margin-bottom: 2rem;
+}
+.text a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    margin-bottom: 5rem;
+    display: block;
+    margin-left: 4rem;
+    color: #1a73e8;
+    font-weight: 600;
+    letter-spacing: 0.25px;
+
+}
+.text p{
+    margin-left: 4rem;
+    color: #5f6368;
+    padding-bottom: .5rem;
+    font-size: 1.3rem;
+    
+}
+
+.btn{}
+
+.btn-left a{
+    float: left;
+    text-decoration: none;
+    display: block;
+    margin-left: 4rem;
+    color: #1a73e8;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+.btn-right a{
+    float: right;
+    text-decoration: none;
+    display: block;
+    background:#1a73e8;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 1rem 3rem;
+    margin-right: 5rem;
+    font-weight: 600;
+    border-radius: .5rem;
+}
+
+/* Now footer */
+.footer{
+    width: 50rem;
+    height: auto;
+    margin: auto;
+    margin-top: 1.5rem;
+}
+.footer-left a{
+    text-decoration: none;
+    color: #5f6368;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.footer-left i{
+    margin-left: .5rem;
+    color: #5f6368;
+}
+.footer-right ul{
+    list-style: none;
+}
+.footer-right ul li{
+    display: inline-block;
+}
+.footer-right ul li a{
+    display: block;
+    text-decoration: none;
+    color: #5f6368;
+    padding: 0 1.5rem;
+    font-size: 1.3rem;
+}
+
+/*Responsiv Css*/
+
+@media(max-width:992px){
+	html{
+		font-size: 55%;
+	}
+}
+@media(max-width:768px){
+	html{
+		font-size: 45%;
+	}
+}
+@media(max-width:576px){
+	html{
+		font-size: 35%;
+	}
+}
